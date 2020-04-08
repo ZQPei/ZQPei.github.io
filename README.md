@@ -1,4 +1,4 @@
 # Index
 This repo belongs to Ziqiang Pei as his homepage.
 
-Click [here](ziqiangpei.xyz) for more.
+Click [here](https://ziqiangpei.xyz) for more.

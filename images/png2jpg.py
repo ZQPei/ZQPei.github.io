@@ -1,6 +1,7 @@
 import os
 import glob
 import PIL.Image as Image
+import mkdocs
 
 
 def convert_jpg(fn):

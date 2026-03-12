@@ -1,0 +1,16 @@
+baseURL = "https://ziqiangpei.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Ziqiang Pei"
+theme = "hugo-theme-stack"
+hasCJKLanguage = true
+
+[pagination]
+  pagerSize = 10
+
+[permalinks]
+  blog = "/blog/:slug/"
+  page = "/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,68 @@
+mainSections = ["blog"]
+rssFullContent = true
+favicon = "/images/favicon.png"
+
+[footer]
+  since = 2020
+  customText = ""
+
+[dateFormat]
+  published = "2006-01-02"
+  lastUpdated = "2006-01-02"
+
+[sidebar]
+  compact = false
+  emoji = ""
+  subtitle = "Software Engineer | AI Infrastructure | CUDA | Deep Learning Compilers"
+  avatar = "/images/profile_small.jpg"
+
+[article]
+  headingAnchor = true
+  math = true
+  toc = true
+  readingTime = true
+
+  [article.list]
+    showTags = true
+
+  [article.license]
+    enabled = true
+    default = "Licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)"
+
+[widgets]
+  homepage = [
+    { type = "search" },
+    { type = "archives", params = { limit = 5 } },
+    { type = "categories", params = { limit = 10 } },
+    { type = "tag-cloud", params = { limit = 20 } },
+  ]
+  page = [{ type = "toc" }]
+
+[colorScheme]
+  toggle = true
+  default = "auto"
+
+[imageProcessing]
+  [imageProcessing.content]
+    enabled = true
+  [imageProcessing.thumbnail]
+    enabled = true
+
+[comments]
+  enabled = true
+  provider = "giscus"
+
+  [comments.giscus]
+    repo = "ZQPei/ZQPei.github.io"
+    repoID = ""
+    category = "General"
+    categoryID = ""
+    mapping = "pathname"
+    lightTheme = "light"
+    darkTheme = "dark_dimmed"
+    reactionsEnabled = 1
+    emitMetadata = 0
+    inputPosition = "top"
+    lang = "en"
+    strict = 0
+    loading = "lazy"

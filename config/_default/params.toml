@@ -14,7 +14,7 @@ favicon = "/images/favicon.png"
   compact = false
   emoji = ""
   subtitle = "Software Engineer | AI Infrastructure | CUDA | Deep Learning Compilers"
-  avatar = "/images/profile_small.jpg"
+  avatar = "images/avatar.png"
 
 [article]
   headingAnchor = true
